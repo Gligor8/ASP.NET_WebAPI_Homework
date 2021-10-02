@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gligor\\Desktop\\Code Classes\\ASP.NET_WebAPI\\Homeworks\\WebAPIBooks\\WebAPIBooks\\WebAPIBooks.csproj": {}
+    "C:\\Users\\Gligor\\Desktop\\Code Classes\\ASP.NET_WebAPI\\Homeworks\\ASP.NET_WebAPI_Homeworks\\WebAPIBooks\\WebAPIBooks\\WebAPIBooks.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gligor\\Desktop\\Code Classes\\ASP.NET_WebAPI\\Homeworks\\WebAPIBooks\\WebAPIBooks\\WebAPIBooks.csproj": {
+    "C:\\Users\\Gligor\\Desktop\\Code Classes\\ASP.NET_WebAPI\\Homeworks\\ASP.NET_WebAPI_Homeworks\\WebAPIBooks\\WebAPIBooks\\WebAPIBooks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gligor\\Desktop\\Code Classes\\ASP.NET_WebAPI\\Homeworks\\WebAPIBooks\\WebAPIBooks\\WebAPIBooks.csproj",
+        "projectUniqueName": "C:\\Users\\Gligor\\Desktop\\Code Classes\\ASP.NET_WebAPI\\Homeworks\\ASP.NET_WebAPI_Homeworks\\WebAPIBooks\\WebAPIBooks\\WebAPIBooks.csproj",
         "projectName": "WebAPIBooks",
-        "projectPath": "C:\\Users\\Gligor\\Desktop\\Code Classes\\ASP.NET_WebAPI\\Homeworks\\WebAPIBooks\\WebAPIBooks\\WebAPIBooks.csproj",
+        "projectPath": "C:\\Users\\Gligor\\Desktop\\Code Classes\\ASP.NET_WebAPI\\Homeworks\\ASP.NET_WebAPI_Homeworks\\WebAPIBooks\\WebAPIBooks\\WebAPIBooks.csproj",
         "packagesPath": "C:\\Users\\Gligor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gligor\\Desktop\\Code Classes\\ASP.NET_WebAPI\\Homeworks\\WebAPIBooks\\WebAPIBooks\\obj\\",
+        "outputPath": "C:\\Users\\Gligor\\Desktop\\Code Classes\\ASP.NET_WebAPI\\Homeworks\\ASP.NET_WebAPI_Homeworks\\WebAPIBooks\\WebAPIBooks\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gligor\\AppData\\Roaming\\NuGet\\NuGet.Config",

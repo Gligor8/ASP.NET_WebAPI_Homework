@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Gligor\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Gligor\\.nuget\\packages"
+    ]
+  }
+}

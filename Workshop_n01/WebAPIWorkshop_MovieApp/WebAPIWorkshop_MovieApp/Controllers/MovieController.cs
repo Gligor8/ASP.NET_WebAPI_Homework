@@ -55,7 +55,7 @@ namespace WebAPIWorkshop_MovieApp.Controllers
         }
 
 //        POST api/<MovieController>
-        [HttpPost]
+        [HttpPost("postmovie")]
         public IActionResult PostMovie([FromBody] Movie movie)
         {
             try

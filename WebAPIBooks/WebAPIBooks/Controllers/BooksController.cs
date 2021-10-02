@@ -114,6 +114,7 @@ namespace WebAPIBooks.Controllers
         [HttpPost("PostList")]
         public IActionResult PostTitle([FromBody] List<Book> titles)
         {
+
             List<string> titleList = StaticDB.Books.FirstOrDefault(x => x.Title.Equals(titles));
             return StatusCode(StatusCodes.Status201Created, titleList);
         }
