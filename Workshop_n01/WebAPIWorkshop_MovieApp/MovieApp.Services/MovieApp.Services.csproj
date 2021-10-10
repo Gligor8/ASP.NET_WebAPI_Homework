@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="UmbracoCms.Core" Version="8.16.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MovieApp.DataAccess\MovieApp.DataAccess.csproj" />
+    <ProjectReference Include="..\MovieApp.Domain\MovieApp.Domain.csproj" />
+    <ProjectReference Include="..\MovieApp.Mappers\MovieApp.Mappers.csproj" />
+    <ProjectReference Include="..\MovieApp.Models\MovieApp.Models.csproj" />
+    <ProjectReference Include="..\MovieApp.Shared\MovieApp.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

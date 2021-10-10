@@ -1,0 +1,17 @@
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Services\bin\Debug\netcoreapp3.1\MovieApp.Services.deps.json
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Services\bin\Debug\netcoreapp3.1\MovieApp.Services.dll
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Services\bin\Debug\netcoreapp3.1\MovieApp.Services.pdb
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Services\bin\Debug\netcoreapp3.1\MovieApp.Domain.dll
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Services\bin\Debug\netcoreapp3.1\MovieApp.Domain.pdb
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Services\obj\Debug\netcoreapp3.1\MovieApp.Services.csprojAssemblyReference.cache
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Services\obj\Debug\netcoreapp3.1\MovieApp.Services.AssemblyInfoInputs.cache
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Services\obj\Debug\netcoreapp3.1\MovieApp.Services.AssemblyInfo.cs
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Services\obj\Debug\netcoreapp3.1\MovieApp.Services.csproj.CoreCompileInputs.cache
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Services\obj\Debug\netcoreapp3.1\MovieApp.Services.csproj.CopyComplete
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Services\obj\Debug\netcoreapp3.1\MovieApp.Services.dll
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Services\obj\Debug\netcoreapp3.1\MovieApp.Services.pdb
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Services\bin\Debug\netcoreapp3.1\MovieApp.DataAccess.dll
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Services\bin\Debug\netcoreapp3.1\MovieApp.Mappers.dll
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Services\bin\Debug\netcoreapp3.1\MovieApp.Models.dll
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Services\bin\Debug\netcoreapp3.1\MovieApp.DataAccess.pdb
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Services\bin\Debug\netcoreapp3.1\MovieApp.Models.pdb

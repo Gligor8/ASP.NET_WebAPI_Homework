@@ -5,11 +5,19 @@ VisualStudioVersion = 16.0.31229.75
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPIWorkshop_MovieApp", "WebAPIWorkshop_MovieApp\WebAPIWorkshop_MovieApp.csproj", "{5F16C072-842B-4BFB-B241-84FB57B5282C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApp.DataAccess", "MovieApp.DataAccess\MovieApp.DataAccess.csproj", "{B3FAAE4E-9A6C-4CF6-8530-7043EA580D57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieApp.DataAccess", "MovieApp.DataAccess\MovieApp.DataAccess.csproj", "{B3FAAE4E-9A6C-4CF6-8530-7043EA580D57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApp.Domain", "MovieApp.Domain\MovieApp.Domain.csproj", "{8E31D328-803E-4C48-85D8-4C5686362DA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieApp.Domain", "MovieApp.Domain\MovieApp.Domain.csproj", "{8E31D328-803E-4C48-85D8-4C5686362DA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApp.Helpers", "MovieApp.Helpers\MovieApp.Helpers.csproj", "{588461A2-795C-4E95-B7A2-BFB035045667}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieApp.Helpers", "MovieApp.Helpers\MovieApp.Helpers.csproj", "{588461A2-795C-4E95-B7A2-BFB035045667}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieApp.Services", "MovieApp.Services\MovieApp.Services.csproj", "{5F576185-A27B-4AF5-A8CE-49D4A18ED256}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieApp.Models", "MovieApp.Models\MovieApp.Models.csproj", "{5D637595-5E99-414D-9125-A6525CB0E87B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApp.Mappers", "MovieApp.Mappers\MovieApp.Mappers.csproj", "{06DF6CE1-C4C6-4A3E-A43D-7DDF0967F1D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApp.Shared", "MovieApp.Shared\MovieApp.Shared.csproj", "{A526F80F-E261-48EE-B022-CF47FFA2896B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,22 @@ Global
 		{588461A2-795C-4E95-B7A2-BFB035045667}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{588461A2-795C-4E95-B7A2-BFB035045667}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{588461A2-795C-4E95-B7A2-BFB035045667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F576185-A27B-4AF5-A8CE-49D4A18ED256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F576185-A27B-4AF5-A8CE-49D4A18ED256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F576185-A27B-4AF5-A8CE-49D4A18ED256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F576185-A27B-4AF5-A8CE-49D4A18ED256}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D637595-5E99-414D-9125-A6525CB0E87B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D637595-5E99-414D-9125-A6525CB0E87B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D637595-5E99-414D-9125-A6525CB0E87B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D637595-5E99-414D-9125-A6525CB0E87B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06DF6CE1-C4C6-4A3E-A43D-7DDF0967F1D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06DF6CE1-C4C6-4A3E-A43D-7DDF0967F1D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06DF6CE1-C4C6-4A3E-A43D-7DDF0967F1D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06DF6CE1-C4C6-4A3E-A43D-7DDF0967F1D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A526F80F-E261-48EE-B022-CF47FFA2896B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A526F80F-E261-48EE-B022-CF47FFA2896B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A526F80F-E261-48EE-B022-CF47FFA2896B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A526F80F-E261-48EE-B022-CF47FFA2896B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

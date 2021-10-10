@@ -1,5 +1,12 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using MovieApp.Domain;
+using MovieApp.Mappers;
+using MovieApp.Models;
+using MovieApp.Services.Interfaces;
+using MovieApp.Shared;
+using MovieApp.Shared.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,25 +18,32 @@ using WebAPIWorkshop_MovieApp.Models.Enums;
 
 namespace WebAPIWorkshop_MovieApp.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class MovieController : ControllerBase
     {
+        private IMovieService _movieService;
+
+        public MovieController(IMovieService movieService)
+        {
+            _movieService = movieService;
+        }
         // GET: api/<MovieController>  - get movie by id
         [HttpGet ("{id}")]
         public ActionResult<Movie> Get(int id)
         {
             try
             {
-                if (id < 0)
-                {
-                    return StatusCode(StatusCodes.Status400BadRequest, "Movie Id cannot be an integer below zero");
-                }
-                if (id >= StaticDB.Movies.Count)
-                {
-                    return StatusCode(StatusCodes.Status404NotFound, "Nonexistent id");
-                }
-                return StatusCode(200, StaticDB.Movies[id]);
+                //if (id < 0)
+                //{
+                //    return StatusCode(StatusCodes.Status400BadRequest, "Movie Id cannot be an integer below zero");
+                //}
+                //if (id >= StaticDB.Movies.Count)
+                //{
+                //    return StatusCode(StatusCodes.Status404NotFound, "Nonexistent id");
+                //}
+                return StatusCode(200, _movieService.GetMovieById(id));
             }
             catch 
             {
@@ -40,11 +54,13 @@ namespace WebAPIWorkshop_MovieApp.Controllers
 
         // GET api/<MovieController>/5
         [HttpGet("genre/{genre}")]
-        public ActionResult<Movie> GetGenre(Genre genre)
+        public ActionResult<MovieModel> GetGenre(Genre genre)
         {
             try
             {
-                Movie movieSearch = StaticDB.Movies.FirstOrDefault(x => x.Genre == genre);
+                MovieModel movieSearch = _movieService.GetMovieByGenre(genre);
+                
+
                 return StatusCode(StatusCodes.Status200OK, movieSearch); 
             }
             catch 
@@ -56,11 +72,11 @@ namespace WebAPIWorkshop_MovieApp.Controllers
 
 //        POST api/<MovieController>
         [HttpPost("postmovie")]
-        public IActionResult PostMovie([FromBody] Movie movie)
+        public IActionResult PostMovie([FromBody] MovieModel movie)
         {
             try
             {
-                StaticDB.Movies.Add(movie);
+                _movieService.AddMovie(movie);
                 return StatusCode(StatusCodes.Status201Created, "New movie added");
             }
             catch 
@@ -72,9 +88,9 @@ namespace WebAPIWorkshop_MovieApp.Controllers
 
         // Get All Movies
         [HttpGet]
-        public ActionResult<List<Movie>> Get()
+        public ActionResult<List<MovieModel>> Get()
         {
-            return StatusCode(StatusCodes.Status200OK, StaticDB.Movies);
+            return StatusCode(StatusCodes.Status200OK, _movieService.GetAllMovies());
         }
 
         // DELETE api/<MovieController>/5
@@ -83,7 +99,7 @@ namespace WebAPIWorkshop_MovieApp.Controllers
         {
             try
             {
-                StaticDB.Movies.RemoveAt(id);
+                _movieService.DeleteMovie(id);
                 return StatusCode(StatusCodes.Status204NoContent);
             }
             catch 
@@ -92,32 +108,35 @@ namespace WebAPIWorkshop_MovieApp.Controllers
             }
         }
 
-        [HttpPut("{movieIndex}")]
-        public IActionResult PutMovie(int movieIndex, [FromBody] int year)
+        [HttpPut]
+        public IActionResult PutMovie([FromBody] MovieModel movieModel)
         {
             try
             {
-                if (movieIndex < 0)
-                {
-                    return StatusCode(StatusCodes.Status400BadRequest, "Bad request");
-                }
-                if (movieIndex >= StaticDB.Movies.Count)
-                {
-                    return StatusCode(StatusCodes.Status404NotFound, "Movie does not exist");
-                }
+                //if (movieId < 0)
+                //{
+                //    return StatusCode(StatusCodes.Status400BadRequest, "Bad request");
+                //}
+                //if (movieId >= _movieService.UpdateMovie(movieId))
+                //{
+                //    return StatusCode(StatusCodes.Status404NotFound, "Movie does not exist");
+                //}
 
-                Movie film = StaticDB.Movies[movieIndex];
-                if (film != null)
-                {
-                    StaticDB.Movies.FirstOrDefault(x => x.Year.Equals(year));
-
-                }
-                return StatusCode(StatusCodes.Status200OK, "Year has been overwritten");
+                _movieService.UpdateMovie(movieModel);
+                return StatusCode(StatusCodes.Status204NoContent, "Movie updated");
             }
-            catch
+            catch(NotFoundException e)
             {
 
-                return StatusCode(StatusCodes.Status500InternalServerError, "Server Error");
+                return StatusCode(StatusCodes.Status500InternalServerError, e.Message);
+            }
+            catch(MovieException e)
+            {
+                return StatusCode(StatusCodes.Status400BadRequest, e.Message);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
     }

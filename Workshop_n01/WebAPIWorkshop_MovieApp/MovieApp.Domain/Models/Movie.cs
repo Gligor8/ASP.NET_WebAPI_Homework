@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MovieApp.Domain.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -13,5 +14,8 @@ namespace WebAPIWorkshop_MovieApp.Models
         public string Description { get; set; }
         public int Year { get; set; }
         public Genre Genre { get; set; }
+
+        public int UserId { get; set; }
+        public User User { get; set; }
     }
 }

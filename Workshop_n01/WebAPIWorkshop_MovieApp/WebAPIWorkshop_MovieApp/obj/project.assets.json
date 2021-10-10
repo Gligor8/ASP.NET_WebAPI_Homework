@@ -1521,6 +1521,30 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "UmbracoCms.Core/8.16.0": {
+        "type": "package",
+        "compile": {
+          "lib/net472/Umbraco.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net472/Umbraco.Core.dll": {}
+        }
+      },
+      "MovieApp.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
+          "MovieApp.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MovieApp.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MovieApp.DataAccess.dll": {}
+        }
+      },
       "MovieApp.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -1547,6 +1571,61 @@
         },
         "runtime": {
           "bin/placeholder/MovieApp.Helpers.dll": {}
+        }
+      },
+      "MovieApp.Mappers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MovieApp.Domain": "1.0.0",
+          "MovieApp.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MovieApp.Mappers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MovieApp.Mappers.dll": {}
+        }
+      },
+      "MovieApp.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MovieApp.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MovieApp.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MovieApp.Models.dll": {}
+        }
+      },
+      "MovieApp.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MovieApp.DataAccess": "1.0.0",
+          "MovieApp.Domain": "1.0.0",
+          "MovieApp.Mappers": "1.0.0",
+          "MovieApp.Models": "1.0.0",
+          "MovieApp.Shared": "1.0.0",
+          "UmbracoCms.Core": "8.16.0"
+        },
+        "compile": {
+          "bin/placeholder/MovieApp.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MovieApp.Services.dll": {}
+        }
+      },
+      "MovieApp.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/MovieApp.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MovieApp.Shared.dll": {}
         }
       }
     }
@@ -5817,6 +5896,25 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "UmbracoCms.Core/8.16.0": {
+      "sha512": "e+FdzXn5t4jXocMd0/pEOZWmJLjTpggQKTliURrFKJXPfqO7nhT9kuafgD9lkRXXQ5Rck9slWvEO2wnKdcUbKQ==",
+      "type": "package",
+      "path": "umbracocms.core/8.16.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/Umbraco.Core.dll",
+        "lib/net472/Umbraco.Core.pdb",
+        "lib/net472/Umbraco.Core.xml",
+        "umbracocms.core.8.16.0.nupkg.sha512",
+        "umbracocms.core.nuspec"
+      ]
+    },
+    "MovieApp.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../MovieApp.DataAccess/MovieApp.DataAccess.csproj",
+      "msbuildProject": "../MovieApp.DataAccess/MovieApp.DataAccess.csproj"
+    },
     "MovieApp.Domain/1.0.0": {
       "type": "project",
       "path": "../MovieApp.Domain/MovieApp.Domain.csproj",
@@ -5826,6 +5924,26 @@
       "type": "project",
       "path": "../MovieApp.Helpers/MovieApp.Helpers.csproj",
       "msbuildProject": "../MovieApp.Helpers/MovieApp.Helpers.csproj"
+    },
+    "MovieApp.Mappers/1.0.0": {
+      "type": "project",
+      "path": "../MovieApp.Mappers/MovieApp.Mappers.csproj",
+      "msbuildProject": "../MovieApp.Mappers/MovieApp.Mappers.csproj"
+    },
+    "MovieApp.Models/1.0.0": {
+      "type": "project",
+      "path": "../MovieApp.Models/MovieApp.Models.csproj",
+      "msbuildProject": "../MovieApp.Models/MovieApp.Models.csproj"
+    },
+    "MovieApp.Services/1.0.0": {
+      "type": "project",
+      "path": "../MovieApp.Services/MovieApp.Services.csproj",
+      "msbuildProject": "../MovieApp.Services/MovieApp.Services.csproj"
+    },
+    "MovieApp.Shared/1.0.0": {
+      "type": "project",
+      "path": "../MovieApp.Shared/MovieApp.Shared.csproj",
+      "msbuildProject": "../MovieApp.Shared/MovieApp.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5835,7 +5953,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.10",
       "MovieApp.Domain >= 1.0.0",
-      "MovieApp.Helpers >= 1.0.0"
+      "MovieApp.Helpers >= 1.0.0",
+      "MovieApp.Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5870,6 +5989,9 @@
             },
             "C:\\Users\\Gligor\\Desktop\\Code Classes\\ASP.NET_WebAPI\\Homeworks\\ASP.NET_WebAPI_Homeworks\\Workshop_n01\\WebAPIWorkshop_MovieApp\\MovieApp.Helpers\\MovieApp.Helpers.csproj": {
               "projectPath": "C:\\Users\\Gligor\\Desktop\\Code Classes\\ASP.NET_WebAPI\\Homeworks\\ASP.NET_WebAPI_Homeworks\\Workshop_n01\\WebAPIWorkshop_MovieApp\\MovieApp.Helpers\\MovieApp.Helpers.csproj"
+            },
+            "C:\\Users\\Gligor\\Desktop\\Code Classes\\ASP.NET_WebAPI\\Homeworks\\ASP.NET_WebAPI_Homeworks\\Workshop_n01\\WebAPIWorkshop_MovieApp\\MovieApp.Services\\MovieApp.Services.csproj": {
+              "projectPath": "C:\\Users\\Gligor\\Desktop\\Code Classes\\ASP.NET_WebAPI\\Homeworks\\ASP.NET_WebAPI_Homeworks\\Workshop_n01\\WebAPIWorkshop_MovieApp\\MovieApp.Services\\MovieApp.Services.csproj"
             }
           }
         }
@@ -5926,5 +6048,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'UmbracoCms.Core 8.16.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "UmbracoCms.Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
