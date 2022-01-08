@@ -1,12 +1,14 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using MovieApp.Domain;
 using MovieApp.Mappers;
 using MovieApp.Models;
 using MovieApp.Services.Interfaces;
 using MovieApp.Shared;
 using MovieApp.Shared.Exceptions;
+using Serilog;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,10 +26,12 @@ namespace WebAPIWorkshop_MovieApp.Controllers
     public class MovieController : ControllerBase
     {
         private IMovieService _movieService;
+        private ILogger<MovieController> _logger;
 
-        public MovieController(IMovieService movieService)
+        public MovieController(IMovieService movieService, ILogger<MovieController> logger)
         {
             _movieService = movieService;
+            _logger = logger;
         }
         // GET: api/<MovieController>  - get movie by id
         [HttpGet ("{id}")]
@@ -59,8 +63,8 @@ namespace WebAPIWorkshop_MovieApp.Controllers
             try
             {
                 MovieModel movieSearch = _movieService.GetMovieByGenre(genre);
-                
 
+                Log.Information("These {movies} are of genre {}", movieSearch, genre);
                 return StatusCode(StatusCodes.Status200OK, movieSearch); 
             }
             catch 

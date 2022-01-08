@@ -1,0 +1,21 @@
+Homework classes 7 & 8
+Use the SEDC.PizzaApp.Refactored solution:
+1.	Create a model for Drink that has the following properties:
+o	Id (int)
+o	Name (string)
+o	DrinkSize (DrinkSize enum – 0.33l, 0.5l, 2l – Enum needs to be created)
+o	Price (double)
+Each Order can contain a list of drinks beside the list of pizzas, so the Order model needs to be refactored to accommodate for this. 
+Extend the StaticDb appropriately to contain list of drinks (DrinkMenu).
+2.	Create a repository that handles getAll / insert methods for DrinkSize.  
+3.	Create service that handles the business logic for handling the Drink Menu.
+4.	Extend the MenuViewModel to contain Drinks, and expand the Menu action in HomeController to get the Drinks and populate them in the corresponding view (after the pizzas).
+5.	Extend the OrderViewModel and the Order view to contain list of Drinks that have been Ordered (Name of drink + Size)
+6.	Extend the business logic in OrderService for saving an order to get the appropriate drinks and save it to the StaticDb.
+
+
+•	Bonus 
+o	In the view with a list of orders add a link that will take you to the Order Details Page.
+o	Refactor the Order Details View Model(s) to contain the list of Pizzas and Drinks that the Order has and list the pizzas/drinks in that Order in the Order Details View.
+o	Create a method that will retrieve the Most Ordered Pizza from all orders and show the name of the pizza on the Home/Index view. When finding out which Pizza is the Most Ordered do not take the size into consideration. (large pepperoni and family pepperoni both count towards pepperoni). If there are multiple pizzas with the same amount of orders, take the first one. Edit any Controller(s), VIewModel(s), Services(s) and/or Repository(ies) you deem necessary in order to achieve this.
+o	Extend the Order method to include Municipality when ordering, which will be an Enum field. Add the appropriate Dropdown in the Order page, and send this value for saving in the database. When saving the Order entity calculate the DeliveryPrice based on the Municipality (example Karpos delivery price = 50, Aerodrom delivery price = 30, Gjorce delivery price = 100). The Municipality Enum should contain only a few Municipalities of your choice.

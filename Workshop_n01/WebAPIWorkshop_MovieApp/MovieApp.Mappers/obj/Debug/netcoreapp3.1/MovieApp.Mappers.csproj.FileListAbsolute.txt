@@ -1,0 +1,14 @@
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Mappers\bin\Debug\netcoreapp3.1\MovieApp.Mappers.deps.json
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Mappers\bin\Debug\netcoreapp3.1\MovieApp.Mappers.dll
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Mappers\bin\Debug\netcoreapp3.1\MovieApp.Mappers.pdb
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Mappers\bin\Debug\netcoreapp3.1\MovieApp.Domain.dll
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Mappers\bin\Debug\netcoreapp3.1\MovieApp.Models.dll
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Mappers\bin\Debug\netcoreapp3.1\MovieApp.Domain.pdb
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Mappers\bin\Debug\netcoreapp3.1\MovieApp.Models.pdb
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Mappers\obj\Debug\netcoreapp3.1\MovieApp.Mappers.csprojAssemblyReference.cache
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Mappers\obj\Debug\netcoreapp3.1\MovieApp.Mappers.AssemblyInfoInputs.cache
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Mappers\obj\Debug\netcoreapp3.1\MovieApp.Mappers.AssemblyInfo.cs
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Mappers\obj\Debug\netcoreapp3.1\MovieApp.Mappers.csproj.CoreCompileInputs.cache
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Mappers\obj\Debug\netcoreapp3.1\MovieApp.Mappers.csproj.CopyComplete
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Mappers\obj\Debug\netcoreapp3.1\MovieApp.Mappers.dll
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Mappers\obj\Debug\netcoreapp3.1\MovieApp.Mappers.pdb

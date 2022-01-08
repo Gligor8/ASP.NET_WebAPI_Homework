@@ -1,0 +1,9 @@
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Shared\bin\Debug\netcoreapp3.1\MovieApp.Shared.deps.json
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Shared\bin\Debug\netcoreapp3.1\MovieApp.Shared.dll
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Shared\bin\Debug\netcoreapp3.1\MovieApp.Shared.pdb
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Shared\obj\Debug\netcoreapp3.1\MovieApp.Shared.csprojAssemblyReference.cache
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Shared\obj\Debug\netcoreapp3.1\MovieApp.Shared.AssemblyInfoInputs.cache
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Shared\obj\Debug\netcoreapp3.1\MovieApp.Shared.AssemblyInfo.cs
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Shared\obj\Debug\netcoreapp3.1\MovieApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Shared\obj\Debug\netcoreapp3.1\MovieApp.Shared.dll
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Shared\obj\Debug\netcoreapp3.1\MovieApp.Shared.pdb

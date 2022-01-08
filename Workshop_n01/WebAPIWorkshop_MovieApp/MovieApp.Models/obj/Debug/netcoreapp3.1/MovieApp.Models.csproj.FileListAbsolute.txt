@@ -7,3 +7,6 @@ C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Hom
 C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Models\obj\Debug\netcoreapp3.1\MovieApp.Models.csproj.CoreCompileInputs.cache
 C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Models\obj\Debug\netcoreapp3.1\MovieApp.Models.dll
 C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Models\obj\Debug\netcoreapp3.1\MovieApp.Models.pdb
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Models\bin\Debug\netcoreapp3.1\MovieApp.Domain.dll
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Models\bin\Debug\netcoreapp3.1\MovieApp.Domain.pdb
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\MovieApp.Models\obj\Debug\netcoreapp3.1\MovieApp.Models.csproj.CopyComplete

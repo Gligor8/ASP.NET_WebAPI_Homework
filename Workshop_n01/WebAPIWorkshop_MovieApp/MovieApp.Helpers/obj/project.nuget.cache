@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pUtG6WM9lroBnKHQnBjV48tanNAJBt7Q2ddNZyIoKgYXnb40UO+zgwSGsJM2KcMIbF4W9+oaOTKIDAnZyxgABw==",
+  "dgSpecHash": "OsJnpe61pK72yqSC+F7MXEybfKSyJ1kpgZJwtGrvH+qlaFEoL/UWiaMXBZyiGpoAn4HdrqRZ1ozxiWEo2VxY+Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gligor\\Desktop\\Code Classes\\ASP.NET_WebAPI\\Homeworks\\ASP.NET_WebAPI_Homeworks\\Workshop_n01\\WebAPIWorkshop_MovieApp\\MovieApp.Helpers\\MovieApp.Helpers.csproj",
   "expectedPackageFiles": [
@@ -32,6 +32,8 @@
     "C:\\Users\\Gligor\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Gligor\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Gligor\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\Gligor\\.nuget\\packages\\nlog\\4.7.6\\nlog.4.7.6.nupkg.sha512",
+    "C:\\Users\\Gligor\\.nuget\\packages\\nlog.extensions.logging\\1.7.0\\nlog.extensions.logging.1.7.0.nupkg.sha512",
     "C:\\Users\\Gligor\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\Gligor\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\Gligor\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",

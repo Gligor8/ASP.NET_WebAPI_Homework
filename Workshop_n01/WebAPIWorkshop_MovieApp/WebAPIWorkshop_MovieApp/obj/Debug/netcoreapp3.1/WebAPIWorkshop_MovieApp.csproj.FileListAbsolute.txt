@@ -65,3 +65,12 @@ C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Hom
 C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\WebAPIWorkshop_MovieApp\bin\Debug\netcoreapp3.1\MovieApp.Domain.pdb
 C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\WebAPIWorkshop_MovieApp\bin\Debug\netcoreapp3.1\MovieApp.Helpers.pdb
 C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\WebAPIWorkshop_MovieApp\obj\Debug\netcoreapp3.1\WebAPIWorkshop_MovieApp.csproj.CopyComplete
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\WebAPIWorkshop_MovieApp\bin\Debug\netcoreapp3.1\Umbraco.Core.dll
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\WebAPIWorkshop_MovieApp\bin\Debug\netcoreapp3.1\MovieApp.DataAccess.dll
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\WebAPIWorkshop_MovieApp\bin\Debug\netcoreapp3.1\MovieApp.Mappers.dll
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\WebAPIWorkshop_MovieApp\bin\Debug\netcoreapp3.1\MovieApp.Models.dll
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\WebAPIWorkshop_MovieApp\bin\Debug\netcoreapp3.1\MovieApp.Services.dll
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\WebAPIWorkshop_MovieApp\bin\Debug\netcoreapp3.1\MovieApp.Shared.dll
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\WebAPIWorkshop_MovieApp\bin\Debug\netcoreapp3.1\MovieApp.Services.pdb
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\WebAPIWorkshop_MovieApp\bin\Debug\netcoreapp3.1\MovieApp.DataAccess.pdb
+C:\Users\Gligor\Desktop\Code Classes\ASP.NET_WebAPI\Homeworks\ASP.NET_WebAPI_Homeworks\Workshop_n01\WebAPIWorkshop_MovieApp\WebAPIWorkshop_MovieApp\bin\Debug\netcoreapp3.1\MovieApp.Models.pdb
