@@ -7,8 +7,8 @@ namespace DataAccess
 {
     public class WinnerRepository : IRepository<WinnerDbo>
     {
-        private readonly LotoAppDbContext _context;
-        public WinnerRepository(LotoAppDbContext context)
+        private readonly LottoAppDbContext _context;
+        public WinnerRepository(LottoAppDbContext context)
         {
             _context = context;
         }

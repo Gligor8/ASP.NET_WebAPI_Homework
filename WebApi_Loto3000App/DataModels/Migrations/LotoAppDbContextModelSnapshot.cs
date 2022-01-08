@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DataModels.Migrations
 {
-    [DbContext(typeof(LotoAppDbContext))]
+    [DbContext(typeof(LottoAppDbContext))]
     partial class LotoAppDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

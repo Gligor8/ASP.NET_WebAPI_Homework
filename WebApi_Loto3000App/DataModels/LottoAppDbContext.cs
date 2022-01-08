@@ -6,9 +6,9 @@ using System.Text;
 
 namespace DataModels
 {
-    public class LotoAppDbContext : DbContext
+    public class LottoAppDbContext : DbContext
     {
-        public LotoAppDbContext(DbContextOptions options)
+        public LottoAppDbContext(DbContextOptions options)
             : base(options) { }
 
         public DbSet<UserDbo> Users{ get; set; }

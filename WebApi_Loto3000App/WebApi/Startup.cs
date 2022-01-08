@@ -60,7 +60,7 @@ namespace WebApi
             services.AddTransient<IAdminService, AdminService>();
 
 
-            DiModule.RegisterModule(services, appSettings.LotoAppConnectionString);
+            DiModule.RegisterModule(services, appSettings.LottoAppConnectionString);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

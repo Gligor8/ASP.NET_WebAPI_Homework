@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DataModels.Migrations
 {
-    [DbContext(typeof(LotoAppDbContext))]
+    [DbContext(typeof(LottoAppDbContext))]
     [Migration("20190828102937_init")]
     partial class init
     {

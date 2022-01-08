@@ -6,7 +6,7 @@ namespace Services.Helpers
 {
     public class AppSettings
     {
-        public string LotoAppConnectionString { get; set; }
+        public string LottoAppConnectionString { get; set; }
         public string Secret { get; set; }
     }
 }
